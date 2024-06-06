@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const discover = () => {
   return (
-    <div>discover</div>
-  )
-}
+    <div>
+      <h1 className="text-20 font-bold text-white-1">Discover</h1>
+    </div>
+  );
+};
 
-export default discover
+export default discover;

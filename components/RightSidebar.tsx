@@ -4,8 +4,8 @@ import { SignedIn, UserButton, useUser } from '@clerk/nextjs'
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import Header from './Carousel';
-import Carousel from './Header';
+import Header from './Header';
+import Carousel from './Carousel';
 import { useQuery } from 'convex/react';
 import { api } from '@/convex/_generated/api';
 import { useRouter } from 'next/navigation';
